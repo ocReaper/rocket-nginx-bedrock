@@ -71,7 +71,7 @@ class RocketParser {
 			$output = str_replace('#!# DEBUG #!#', $debug ? '1' : '0', $output);
 
 			// WP Content URI
-			$wp_content_folder = 'wp-content';
+			$wp_content_folder = 'app';
 			if (isset($section['wp_content_folder']) && !empty($section['wp_content_folder'])) {
 				$wp_content_folder = $section['wp_content_folder'];
 			}
